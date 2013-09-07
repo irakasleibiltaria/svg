@@ -1,4 +1,9 @@
 svg
 ===
 
-svg examples
+svg examples:
+
+http://raphaeljs.com/
+
+http://www.svgjs.com/
+
