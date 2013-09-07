@@ -9,7 +9,7 @@ window.onload = function(){
   // Same as above
   var paper = Raphael("canvas_container", 320, 200);
   // Image dump
-  var set = Raphael(["canvas_container", 320, 200, {
+  var paper = Raphael(["canvas_container", 320, 200, {
       type: "rect",
       x: 10,
       y: 10,
@@ -30,11 +30,12 @@ window.onload = function(){
       stroke: "#f00"
   }]);
 
-  set.attr({'fill':'#9cf', 'fill-opacity':0.2});
+  paper.attr({'fill':'#9cf', 'fill-opacity':0.2});
 
   //
 
+  paper.forEach(function (el) {
+      console.log(el.id);
+  });
 
-
-  var rectangle1 = paper.
 }
