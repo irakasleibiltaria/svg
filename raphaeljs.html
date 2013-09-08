@@ -2,18 +2,30 @@
 <html>
   <head>
     <title>Raphael Play</title>
+    <!-- http://raphaeljs.com/ -->
     <script type="text/javascript" src="raphael-min.js"></script>
     <script type="text/javascript" src="our_script.js"></script>
     <style type="text/css">
+      body {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
       #canvas_container {
-        width: 500px;
+        margin: auto;
+        width: 600px;
+        height: 400px;
+        vertical-align: center;
         border: 1px solid #aaa;
-        }
+        background: url("http://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDv5BpRLTSIJkGxfCAwnrazA0XeGtFKfDc&center=43.309261,-2.034397&zoom=19&size=600x400&visual_refresh=true&sensor=false&maptype=satellite") no-repeat scroll 0 0 transparent;
+      }
     </style>
   </head>
+
   <body>
     <div id="canvas_container"></div>
   </body>
+
 </html>
 
 
